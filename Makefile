@@ -1,7 +1,7 @@
 CXX = g++
 CXXFLAGS = -std=c++17 -Wall -g
-TARGET = lab1
-TEST_TARGET = run_tests
+TARGET = lab
+TEST_TARGET = test
 
 SRC = main.cpp BMPImg.cpp
 OBJ = $(SRC:.cpp=.o)

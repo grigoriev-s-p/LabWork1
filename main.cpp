@@ -9,7 +9,7 @@
 int main()
 {
     BMPImg image;
-    image.readFromFile("input.bmp");
+    image.readFromFile("sample.bmp");
 
     // Поворот на 90 по часовой стрелке
     image.rotate90Cw();
