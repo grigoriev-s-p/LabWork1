@@ -1,3 +1,8 @@
+/*
+ * Sergey Grigoriev
+ * st142081@student.spbu.ru
+ * LabWork1
+*/
 #pragma once
 #include <string>
 
