@@ -11,17 +11,17 @@ int main()
     BMPImg image;
     image.readFromFile("sample.bmp");
 
-    // ѕоворот на 90 по часовой стрелке
+    // Rotate90 Clockwise
     image.rotate90Cw();
     image.writeToFile("output_clockwise.bmp");
-    image.rotate90CCw();//возвращаем в исходное состо€ние
+    image.rotate90CCw();//back to original image
 
-    // ѕоворот на 90 против часовой стрелки 
+    // Rotate90 CounterClockwise
     image.rotate90CCw();
     image.writeToFile("output_counterclockwise.bmp");
-    image.rotate90Cw();//возвращаем в исходное состо€ние
+    image.rotate90Cw();//back to original image
 
-    // ѕрименение гауссовского фильтра
+    // Applying Gauss Filter
     image.Gauss();
     image.writeToFile("output_gaussian.bmp");
 
